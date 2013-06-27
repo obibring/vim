@@ -25,6 +25,7 @@ augroup filetypedetect
 augroup END
 
 autocmd FileType haml set sw=2 sts=2 et
+autocmd FileType javascript set sw=2 sts=2 et
 autocmd FileType coffee set sw=2 sts=2 et
 autocmd FileType css set sw=2 sts=2 et
 autocmd FileType sass set sw=2 sts=2 et
