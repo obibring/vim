@@ -13,6 +13,13 @@ set backspace=2
 set number
 colorscheme twilight256
 syntax on
+
+" Disable the arrow keys to force better practices using h,j,k,l keys.
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
 " Remove exraneous whitespace from the end of a buffer.
 autocmd BufWritePre,FileWritePre,FileAppendPre * :%s/[ \t\r]\+$//e
 " HTML files should be highlighted like PHP files.
