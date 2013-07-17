@@ -37,4 +37,5 @@ autocmd FileType coffee set sw=2 sts=2 et
 autocmd FileType css set sw=2 sts=2 et
 autocmd FileType sass set sw=2 sts=2 et
 autocmd FileType jade set sw=2 sts=2 et
+autocmd FileType mkd set sw=2 sts=2 et
 autocmd FileType scss set sw=2 sts=2 et
