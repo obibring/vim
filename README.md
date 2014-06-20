@@ -10,5 +10,5 @@ First, clone the repository.
 You need to create a symbolic link in your home directory that tells vim to
 use the vimrc file from this repository.
 
-    1. ln -sf vim .vim
-    2. ln -sf <path to cloned repo from above>/vimrc ~/.vimrc
+    ln -sf vim .vim
+    ln -sf <path to cloned repo from above>/vimrc ~/.vimrc
