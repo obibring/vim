@@ -1,3 +1,5 @@
+execute pathogen#infect()
+filetype plugin indent on
 
 set nocompatible
 set viminfo='2\,"20000
@@ -14,6 +16,11 @@ set backspace=2
 set number
 colorscheme twilight256
 syntax on
+
+" Below, setting updatetime will affect how quickly vim-gitgutter
+" will update itself. Note that values below 1000ms may cause
+" glitches in vim. See: http://vimawesome.com/plugin/vim-gitgutter.
+" set updatetime=1000
 
 " Disable the arrow keys to force better practices using h,j,k,l keys.
 noremap <Up> <NOP>
