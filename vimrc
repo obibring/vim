@@ -28,6 +28,9 @@ noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
+" Map ESC
+imap jj <ESC>
+
 " Remove exraneous whitespace from the end of a buffer.
 autocmd BufWritePre,FileWritePre,FileAppendPre * :%s/[ \t\r]\+$//e
 " HTML files should be highlighted like PHP files.
@@ -46,3 +49,34 @@ autocmd FileType sass set sw=2 sts=2 et
 autocmd FileType jade set sw=2 sts=2 et
 autocmd FileType mkd set sw=2 sts=2 et
 autocmd FileType scss set sw=2 sts=2 et
+
+" yank to clipboard by default
+" set clipboard+=unnamed
+
+if has("gui_running")
+  syntax on
+  set hlsearch
+  colorscheme macvim
+  set bs=2
+  set ai
+  set ruler
+endif
+
+" +----------------+
+" | Vundle - Begin |
+" +----------------+
+"
+" Vundle is a plugin manager for vim.
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'Valloric/YouCompleteMe' " Autocomplete for vim
+
+call vundle#end()
+filetype plugin indent on
+
+" +--------------+
+" | Vundle - End |
+" +--------------+
+
