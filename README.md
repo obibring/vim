@@ -12,3 +12,8 @@ use the vimrc file from this repository.
 
     ln -sf vim .vim
     ln -sf <path to cloned repo from above>/vimrc ~/.vimrc
+
+## Install Vundle
+```sh
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
