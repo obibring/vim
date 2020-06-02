@@ -17,6 +17,11 @@ set number
 colorscheme twilight256
 syntax on
 
+" Below, we set a config setting that fixes watch-mode
+" for webpack. Details here:
+" https://webpack.js.org/configuration/watch/#watchoptions
+:set backupcopy=yes
+
 " Below, setting updatetime will affect how quickly vim-gitgutter
 " will update itself. Note that values below 1000ms may cause
 " glitches in vim. See: http://vimawesome.com/plugin/vim-gitgutter.

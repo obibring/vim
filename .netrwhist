@@ -1,9 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/obibring/src/crowdtwist/trunk/frontend/fan_club/page_models'
-let g:netrw_dirhist_2='/home/obibring/src/crowdtwist/trunk/frontend/fan_club'
-let g:netrw_dirhist_3='/home/obibring/src/crowdtwist/branches/rel77/frontend/fan_club/templates/reward_details'
-let g:netrw_dirhist_4='/home/obibring/src/crowdtwist/trunk/frontend/fan_club/contexts/layouts/pages'
-let g:netrw_dirhist_5='/home/obibring/src/crowdtwist/trunk/app/conf/crowdtwist.com'
-let g:netrw_dirhist_6='/Users/orrbibring/Downloads/MacVim-snapshot-73'
-let g:netrw_dirhist_7='/Users/orrbibring/.rvm'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/orr/dev/munched/web/pages/admin'
+let g:netrw_dirhist_2='/Users/orr/dev/munched/scraper-2/generated/prisma-client'
+let g:netrw_dirhist_3='/Users/orr/dev/plater/packages/scraper'
+let g:netrw_dirhist_4='/Users/orr/dev/react-chrome-extension-boilerplate/node_modules/babel-preset-react-hmre'
